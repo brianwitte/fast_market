@@ -5,7 +5,8 @@ config :fast_market, FastMarket.Repo,
   username: "postgres",
   password: "mysecretpassword",
   database: "fast_market_db",
-  hostname: "192.168.99.100",
+ # hostname: "192.168.99.100",
+  hostname: "localhost",
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
 
